@@ -1,4 +1,4 @@
-import tensorflow as tf
+
 import keras
 from keras import layers
 import pandas as pd
@@ -9,7 +9,7 @@ import plot_rnd
 import DigitClassification as dc
 from keras.utils import to_categorical
 import matplotlib.pyplot as plt
-
+import tensorflow as tf
 
 dftrain = pd.read_csv('train.csv')
 
